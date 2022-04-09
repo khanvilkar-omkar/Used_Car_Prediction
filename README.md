@@ -28,7 +28,6 @@
 ## 1.1 Introduction
 This project aims to solve the problem of predicting the price of a used car, using Sklearn's supervised machine learning techniques integrated with Spark-Sklearn library. It is clearly a regression problem and predictions are carried out on dataset of used car sales in the american car market. Several regression tecniques have been studied, including Linear Regression, Decision Trees and Random forests of decision trees. Their performances were compared in order to determine which one works best with out dataset.
 
-This project is available as a Google Colaboratory Notebook at the following [link](https://colab.research.google.com/drive/1q48qWY3To0IeF_biazbaGhtzHgXo2yPH).
 
 ## 1.2 Tools
 Most of the project has been developed using Python as the programming language of choice and the following libraries:
@@ -38,7 +37,6 @@ Most of the project has been developed using Python as the programming language 
 - [ELK Stack](https://www.elastic.co/elk-stack), data analysis too.
 - [Rfpimp](https://github.com/parrt/random-forest-importances), feature importances in random forests.
 
-Last but not least, [Google Colaboratory](https://colab.research.google.com/) was the computing platform of choice for training and testing our models.
 
 ## 1.3 Used car price prediction problem
 Used car price prediction problem has a certain value because different studies show that the market of used cars is destined to a continuous growth in the short term. In fact, leasing cars is now a common practice through which it is possible to get get hold of a car by paying a fixed sum for an agreed number of months rather than buying it in its entirety. Once leasing period is over, it is possible to buy the car by paying the residual value, i.e. at the **expected** resale price. It is therefore in the interest of vendors to be able to predict this value with a certain degree of accuracy, since if this value is initially underestimated, the installment will be higher for the customer which will most likely opt for another dealership. It is therefore clear that the price prediction of used cars has a high commercial value, especially in developed countries where the economy of *leasing* has a certain volume.  
